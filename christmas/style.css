@@ -1,0 +1,17 @@
+html{
+	background:lightgreen;
+
+}
+h1{
+	font-size: 70px;
+	color: red;
+	text-align: center;
+
+}
+img{
+	width: 400px;
+	border: 30px double red;
+	margin: 30px;
+
+
+}
