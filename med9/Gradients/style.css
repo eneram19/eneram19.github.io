@@ -1,0 +1,31 @@
+h2{
+	padding: 50px;
+	margin: 20px;
+}
+.grad1{
+	background: linear-gradient(90deg, rgba(159,127,255,1) 11%, rgba(127,170,255,1) 41%, rgba(0,0,0,1) 86%);
+}
+.grad2{
+	background: linear-gradient(90deg, rgba(196,127,255,1) 4%, rgba(0,0,0,1) 86%);
+
+}
+.grad3{
+	background: linear-gradient(0deg, rgba(146,94,230,1) 5%, rgba(26,85,147,1) 23%, rgba(23,128,42,1) 33%, rgba(211,217,77,1) 47%, rgba(215,132,53,1) 58%, rgba(250,116,98,1) 85%);
+
+}
+.grad4{
+
+    background: radial-gradient(circle, rgba(158,230,224,1) 25%, rgba(204,168,217,1) 47%, rgba(175,136,252,1) 85%);
+}
+ h3{
+    padding: 50px;
+	margin: 20px;
+ }
+ h4{
+ 	padding: 50px;
+	margin: 20px;
+ }
+ h5{
+ 	padding: 50px;
+	margin: 20px;
+ }
