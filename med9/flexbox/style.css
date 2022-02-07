@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
 .first-flex{
 display: flex;
 justify-content: center;
@@ -7,8 +9,10 @@ background-color: lightblue;
 }
 h1{
 	background-color: red;
+	font-family:festive;
+    }
 
-}
+
 .strech-flex{
 	display: flex;
 	justify-content: space-between;
