@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	background-image:url(bild6.jpg);
+	background-size: cover;
+	background-position: center;
+}
+header h1{
+	background-color: rgba(255,255,255,0.5);
+	padding: 20px;
+	border-radius: 20px;
+	font-family: redressed;
+	font-size:40px; 
+
+}
+
+body {
+	margin: 0;
+}
+main{
+	background:radial-gradient(circle, rgba(255,210,252,1) 0%, rgba(255,255,255,1) 89%);
+	padding: 100px;
+}
+main p{
+	column-count: 2;
+	
+}
+footer{
+	height: 300px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-image: url(bild6.jpg);
+	background-size: cover;
+	background-position: center;
+  }
