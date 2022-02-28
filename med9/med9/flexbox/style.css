@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+.first-flex{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 400px;
+background-color: lightblue;
+}
+h1{
+	background-color: red;
+	font-family:festive;
+    }
+
+
+.strech-flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	height: 400px;
+	background-color: lightgreen;
+
+}
+p{
+	background-color: pink;
+}
+
+.flex-end{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	height: 400px;
+	background-color: purple;
+
+}
+p{
+	background-color: pink;
+}
+img{
+	width: 250px;
+
+}
+.third-flex{
+	height: 400px;
+	background-color: grey;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+ .fourth-flex{
+
+    height: 400px;
+	background-color: lightblue;
+	display: flex;
+	justify-content:center; 
+	align-items: flex-start;
+    }
