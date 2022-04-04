@@ -55,7 +55,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 400px;
-background-image: url("bg1.jpg");
 background-size: cover;
 background-position: center;
 }
@@ -66,6 +65,18 @@ header h1{
 	background-color: rgba(255,255,255,0.7);
 	color: steelblue;
 }
+
+/* Main */
+main{
+	padding: 60px;
+}
+main h2{
+	background-color: steelblue;
+	padding: 20px;
+}
+
+
+
 /* Footer*/
 footer{
 	height: 300px;
@@ -82,4 +93,43 @@ footer p{
 	border-radius: 15px;	
 	background-color: rgba(255,255,255,0.7);
 
+}
+/***********************************************************************Page styles**************************************************************************/
+
+
+/* Home Page*/
+#home header{
+	background-image: url("logo.jpg");
+}
+
+
+
+/* Animals Page*/
+#animals header{
+	background-image: url("koala.jpg");
+}
+
+#animals main h2{
+	background-color: lightcoral;
+}
+#animals section{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+#animals section .left{
+	width: 40%;
+	background-color: lightblue;
+
+}
+#animals section .right{
+	width: 60%;
+	background-color: lightcoral;
+}
+#animals section .right img{
+	height: 200px;
+}
+/* Cities Page*/
+#cities header{
+	background-image: url("cities.jpg");
 }
