@@ -1,0 +1,75 @@
+/*
+*
+*Title:Website über Australien
+*Author:Enejla Ramja
+*Date:28.03.2022
+*
+*/
+
+
+
+/******************************************** General Styling *****************************************************/
+
+:root{
+	scroll-behavior: smooth;
+}
+
+
+body{
+	margin: 0;
+}
+
+/* Navigation */
+nav{
+	background: linear-gradient(90deg, rgba(81,125,232,1) 24%, rgba(92,151,216,1) 35%, rgba(108,191,193,1) 86%);
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	box-sizing:border-box;
+
+}
+nav img{
+	height: 80px;
+	border-radius: 1%;
+
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+nav ul li a{
+	margin: 10px;
+	padding: 20px;
+	background-color: white;
+	color: steelblue;
+	text-decoration: none;
+	border-radius: 10px;
+
+}
+nav ul li a:hover{
+	background-color: darkblue;
+	color: white;
+}
+
+
+section{
+	padding: 300px;
+}
+#link1{
+	background-color: lightsteelblue;
+}
+#link2{
+	background-color: lightcoral;
+}
+#link3{
+	background-color: lightseagreen;
+}
+
