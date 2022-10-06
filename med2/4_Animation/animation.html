@@ -15,7 +15,27 @@
 			width: 50%;
 			height: 50%;
 			background-color: pink;
+			animation-name: move;
+			animation-duration: 2s;
+			animation-fill-mode: forwards;
+			animation-direction: alternate;
+			animation-iteration-count: infinite;
+			
+
 		}
+		@keyframes move{
+			0%{transform: translateX(0);}
+			33%{transform: translateY(100%);}
+			66%{transform: translateX(100%)translateY(100%);background-color: purple ;}
+			100%{transform: translateX(100%);background-color:violet;}
+		}
+		.big:hover .small {
+			animation-play-state: paused;
+			
+			
+		  }
+		   
+
 
 		
 	</style>
