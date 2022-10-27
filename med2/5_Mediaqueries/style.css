@@ -36,10 +36,27 @@ aside{
 	padding: 25px;
 	
 }
+/*Design Tablet*/
+@media(min-width: 600px){
+	aside{
+		width: 40%;
+		float: left;
+
+	}
+	article{
+		width: 60%;
+		float: left;
+	}
+	li{
+		display: inline;
+	}
+}
+
 
 /*Design für Desktop:
 Trenlinie für Smertphone/Tablets/Desktop:768px*/
 @media(min-width: 768px){
+	li{display: block;}
 	nav,aside{
 		width: 25%;
 		float: left;
