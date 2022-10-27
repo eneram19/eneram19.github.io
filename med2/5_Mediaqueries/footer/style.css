@@ -9,19 +9,21 @@ padding: 80px;
 
 h2{
      font-weight: 700px;
-     color: white;
+     color: black;
      display: flex;
      justify-content: space-around;
      text-align: center;
 }
 
 a{
-     color: white;
+     color: black;
+     flex-direction: column;
 }
 
  p{
-     color: white;
+     color: black;
       display: flex;
      justify-content: space-around;
      text-align: center;
+     flex-direction: column;
 }
