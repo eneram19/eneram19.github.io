@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Translate</title>
+	<meta charset="utf-8">
+
+	<style >
+		.circle1, .circle2, .circle3, .circle4, .circle5{
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			margin: 10px;
+			
+		}
+		.circle1{
+			background-color: pink;
+			transition-timing-function: linear;
+			transition-duration: 2s;
+		}
+		.circle2{
+			background-color: lightblue;
+			transition-timing-function: ease;
+			transition-duration: 2s;
+		}
+		.circle3{
+			background-color: violet;
+			transition-timing-function: ease-in;
+			transition-duration: 2s;
+		}
+		.circle4{
+			background-color: lightgreen;
+			transition-timing-function:ease-out; 
+			transition-duration: 2s;
+		}
+		.circle5{
+			background-color: blue;
+			transition-timing-function:ease-in-out ;
+			transition-duration: 2s;
+		}
+		.container:hover .circle1,.container:hover .circle2,.container:hover .circle3,.container:hover .circle4,.container:hover .circle5{
+			transform: translate(200px);
+
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<h1>Transformation</h1>
+	<p> The Translate CSS funktion repositions an element in the horizontal and/or vertical direction.</p>
+	<div class="container">
+		
+		<div class="circle1"></div>
+		<div class="circle2"></div>
+		<div class="circle3"></div>
+		<div class="circle4"></div>
+		<div class="circle5"></div>
+	</div>
+
+</body>
+</html>

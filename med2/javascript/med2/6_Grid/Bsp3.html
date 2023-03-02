@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grid+Animation</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<style type="text/css">
+		.container{
+			height: 100vh;
+			width: 100vw;
+			display: grid;
+			grid-template-columns: 20vw auto  20vw;
+			grid-auto-rows:10vh auto auto 10vh;
+		}
+		div{
+			border: solid 1px;
+		}
+		.header{
+			background-color: pink;
+			grid-column: 1/4;
+		
+		}
+		.footer{
+			grid-column: 1/4;
+			background-color: pink;
+
+		}
+		.nav{
+			background-color:lightgreen;
+			grid-row: 2/4;
+
+		}
+		.main{
+			background-color: lightblue;
+            grid-row: 2/4;
+            grid-column: 2/3;
+		}
+		body{
+			margin: 0%;
+			display flex: 
+		}
+		.aside1{
+			float: left;
+			grid-column: 3/4;
+			grid-row: 2/3;
+			background-color: purple;
+		
+		}
+		.aside2{
+			float: left;
+			grid-column: 3/4;
+			grid-row: 3/4;
+			background-color: violet;	
+		}
+		.circle{
+			width: 40px;
+			height: 40px;
+			border-radius: 50px;
+			background-color: lightgreen;
+		    animation-name: move;
+			animation-duration: 3s;
+			animation-fill-mode: forwards;
+			animation-direction: alternate;
+			animation-iteration-count: infinite;
+			display: flex;
+			justify-content: center;
+			align-items: flex-start;
+
+		}
+		@keyframes move{
+			0%{transform: translateX(0);}
+			33%{transform: translateY(100px);}
+			66%{transform: translateX(100px)translateY(100px);background-color: green ;}
+			100%{transform: translateX(100px);background-color:blue;}
+		}
+		.circle:hover  {
+			animation-play-state: paused;
+
+			
+			 }
+		
+			
+			
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">header</div>
+		<div class="nav"> nav</div>
+		<div class="main">main
+			<div class="circle">.</div>
+		</div>
+		<div class="aside1">aside 1</div>
+		<div class="aside2">aside 2</div>
+		<div class="footer">footer</div>
+
+</body>
+</html>
