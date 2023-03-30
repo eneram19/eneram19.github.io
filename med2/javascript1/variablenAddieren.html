@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Rechnen mit Variablen</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<script type="text/javascript">
+		"use script";
+		let input;
+		//prompt creates the type string!
+		input = prompt("Bitte geben sie eine Zahl ein:");
+		document.write("Datentyp der eingabe: "+typeof input+"<br>");
+		document.write(input+5 );
+
+       
+
+
+		//change of type
+		input = Number(input);
+		document.write("Datentyp der eingabe: "+typeof input+"<br>");
+		document.write(input+5);
+	</script>
+
+</body>
+</html>
