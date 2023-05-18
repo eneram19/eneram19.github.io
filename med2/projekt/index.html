@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Projekt</title>
+	<style type="text/css">
+		
+
+		.container {
+			height: 100vh;
+			width: 100vw;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-rows: auto auto auto;
+			overflow: hidden;
+
+		}
+		div {
+			border: solid 1px ;
+			
+			
+		}
+		.erste {
+			grid-column: 3/3;
+			grid-row: 4/1;
+			background-color: rgba(250,252,249,255);
+			
+		}
+		.letzte {
+			grid-column: 1/4;
+			grid-row: 1/2;
+			background-color: rgba(160,195,159,255);
+		}
+
+		.one{
+			background-color: rgba(250,252,249,255);
+			
+		}
+		.two{
+			background-color: rgba(250,252,249,255);
+		}
+		
+		nav img{
+			height: 110px;
+			border-radius: 1%;
+		}
+		p{
+			font-size: 30px;
+			color: black;
+			display: flex;
+			align-items: flex-start;
+			justify-content: center;
+			
+		}
+		.a{
+			grid-row: 2/3;
+			background-color: rgba(250,252,249,255);
+		}
+		.b{
+			grid-row: 3/3;
+			background-color: rgba(250,252,249,255);
+
+		}
+		.footer{
+			grid-row: 4/4;
+			grid-column: 1/4;
+			background-color: rgba(160,195,159,255);
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="erste">0</div>
+		<div class="one">1</div>
+		<div class="two">2</div>
+		<div class="a">4</div>
+		<div class="b">5</div>
+		<div class="footer">footer</div>
+	
+		
+
+
+		<div class="letzte">
+			<nav>
+		<img src="logo.jpg" alt="logo">
+		<p>Umweltschutz</p>
+	</nav>
+
+		</div>	
+	</div>
+
+	
+
+
+
+	
+
+</body>
+</html>
