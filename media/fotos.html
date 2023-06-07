@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Projekt</title>
+	<link rel="stylesheet" type="text/css" href="index.html">
+
+	<style type="text/css">
+		body{
+			margin: 0px;
+			display: flex;
+			overflow: hidden;
+		}
+
+		.container {
+			height: 100vh;
+			width: 100vw;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-rows: 150px auto auto 150px;
+			overflow: hidden;
+
+		}
+		div {
+			border: solid black 1px;
+			
+			
+		}
+		
+			
+		
+		.header{
+			grid-column: 1/4;
+			grid-row: 1/2;
+			background-color: rgba(160,195,159,255);
+		}
+
+		
+		
+		nav img{
+			height: 110px;
+			border-radius: 1%;
+		}
+	
+			
+	
+
+		
+		.footer{
+			grid-row: 4/4;
+			grid-column: 1/4;
+			background-color: rgba(160,195,159,255);
+			display: flex;
+	        justify-content: space-evenly;
+	        align-items: center;
+	        
+		}
+		.klick{
+			display:flex;
+			justify-content: center;
+			align-items: flex-end;
+			margin: 25px;
+			padding: 20px;
+			float: right;
+			align-items: center;
+			background-color: green;
+			border-radius: 20%;
+			color: black;
+	
+
+		}
+		
+
+
+	</style>
+</head>
+
+<body id="Home">
+
+	<div class="container">
+		
+	
+		<div class="footer">
+			<p>Enejla Ramja</p>
+			<p>Media</p>
+			<p>2B</p>
+		</div>
+	
+		
+
+
+		<div class="header">
+			<nav>
+		<img src="logo.jpg" alt="logo">
+	
+		<div class="klick">
+
+			<li><a href="index.html">Home</a></li>
+			
+		</div>
+
+		<div class="klick">
+         
+         <li><a href="index.html">Recycling</a></li>
+         
+		</div>
+		
+
+		
+
+
+
+	</nav>
+
+		</div>	
+	</div>
+
+	
+
+
+
+	
+
+</body>
+</html>
